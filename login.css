@@ -1,0 +1,98 @@
+body{
+    background-image: url(img/bg3.jpg)  ;
+    background-origin: padding-box;
+    
+    background-repeat: no-repeat;
+    height:initial;
+    width: auto;
+    margin: 30px 15px; 
+   
+
+
+}
+.form{
+    background-image: url(img/bg2.jpg);
+    height: 424px;
+    width: 600px;
+    margin: 100px 300px;
+    padding: 30px 30px;
+    border-style: inset;
+    border-radius: 15px;
+    
+}
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 55px;
+    color: rgb(108, 108, 238);
+    text-shadow: 4px 4px 4px rgb(1, 15, 17);
+}
+h1:hover{
+    font-family:  'Tangerine', serif;
+    font-size:60px;
+    transform: scale(20px);
+
+    color: rgb(118, 118, 197);
+    text-shadow: 4px 4px 4px rgb(1, 15, 17);
+
+    position: relative;
+    
+    transition: step-start ;
+}
+
+
+.form input[type="text"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin :20px auto;
+    border: 2px solid #3498db;
+    font-size:20px;
+    text-align:center;
+    text-decoration-color: rgb(158, 37, 37);
+    outline: none;
+    border-radius: 130px;
+
+}
+.form input[type="text"]:hover{
+
+   
+   
+    font-size:25px;
+    text-align:center;
+   
+    border-radius: 130px;
+    outline: none;
+    color: white;
+background-color:#3498db ;
+
+}
+
+.form input[type="text"]:focus{
+
+    width: 380px;
+    border-color: #0732aa;
+ 
+ }
+
+.btn{
+   border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #041858;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.form button:hover{
+    background: #01244d;
+    text-decoration: none;
+    font-family:  serif;
+}
+
